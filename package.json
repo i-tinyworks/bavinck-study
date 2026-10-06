@@ -1,0 +1,14 @@
+{
+  "name": "bavinck-study",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "성경 본문에서 시작하는 바빙크 개혁교의학 연구 데스크",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node --watch server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check server.mjs && node --check src/app.js && node --check src/core.js && node --check src/data.js"
+  }
+}
